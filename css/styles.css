@@ -214,6 +214,7 @@ body {
     padding: 16px 32px;
     border-radius: 4px;
     border: 1px solid transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
     font-family: inherit;
     font-weight: 500;
@@ -228,8 +229,8 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: var(--primary-accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-
 /* =================== FEATURES =================== */
 
 .visually-hidden {
@@ -345,6 +346,7 @@ body {
     background-color: #FFFFFF;
     padding-bottom: 32px;
     padding-top: 32px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 
@@ -443,15 +445,19 @@ body {
 /* =========== FOOTER ============ */
 
 .page-footer {
-    display: flex;
     background-color: var(--primary-text-color);
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-/* .footer-container {
-    margin-: 0;
-} */
+.footer-container {
+    display: flex;
+}
+
+.media-footer {
+    width: 208px;
+    margin-left: 120px;
+}
 
 .footer-logo-first {
     color:var(--secondary-accent-color);
@@ -468,10 +474,6 @@ body {
     letter-spacing: 0.02em;
     color: #E7E9FC;
 }
-
-/* .footer-social-links {
-    margin-left: 120px;
-} */
 
 .footer-social-title {
     margin-bottom: 16px;
@@ -557,6 +559,7 @@ body {
 .filter-btn:focus {
     color: var(--dark-background-text);
     background-color: var(--primary-accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* <!-- =========== Work examples ============== --> */
@@ -576,12 +579,15 @@ body {
     margin-bottom: 48px;
 }
 
+.work-item:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
 .work-card {
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
     border-top: transparent;
     background-color: var(--dark-background-text);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .work-name {
