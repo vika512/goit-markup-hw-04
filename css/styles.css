@@ -359,6 +359,7 @@ body {
 .team-position {
     text-align: center;
     color: var(--secondary-text-color);
+    margin-bottom: 8px;
 }
 
 .team-social {
@@ -368,7 +369,6 @@ body {
     width: 232px;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 8px;
 }
 
 .social-button {
@@ -387,7 +387,6 @@ body {
 }
 
 .social-icon {
-    stroke: var(--dark-background-text);
     fill: var(--dark-background-text);
 }
 
@@ -577,6 +576,10 @@ body {
     margin-bottom: 48px;
 }
 
+.work-item {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
 .work-item:hover {
     border: var(--light-background-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
@@ -586,7 +589,6 @@ body {
     background-color: var(--dark-background-text);
     border: 1px solid #E7E9FC;
     border-top: transparent;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .work-name {
